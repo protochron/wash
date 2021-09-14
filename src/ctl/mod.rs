@@ -265,6 +265,7 @@ pub(crate) struct StartActorCommand {
 }
 
 impl StartActorCommand {
+    #[allow(dead_code)]
     pub(crate) fn new(
         opts: ConnectionOpts,
         output: Output,
@@ -377,6 +378,7 @@ pub(crate) struct UpdateActorCommand {
 }
 
 impl UpdateActorCommand {
+    #[allow(dead_code)]
     pub(crate) fn new(
         opts: ConnectionOpts,
         output: Output,

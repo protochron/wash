@@ -90,6 +90,7 @@ impl fmt::Display for OutputParseErr {
     }
 }
 
+#[allow(dead_code)]
 pub(crate) fn set_max_text_output_width(width: usize) {
     MAX_TEXT_OUTPUT_WIDTH.with(|output_width| {
         output_width.set(width);
